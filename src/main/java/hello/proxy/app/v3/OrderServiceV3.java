@@ -13,6 +13,6 @@ public class OrderServiceV3 {
     }
 
     public void orderItem(String itemId) {
-
+        this.orderRepository.save(itemId);
     }
 }
